@@ -38,7 +38,7 @@ then
 	# tag it
 	git add -A
 	git commit -m "version $NEW_VERION"
-	git tag -a "$version" -m "version $NEW_VERION"
+	git tag -a "$NEW_VERION" -m "version $NEW_VERION"
 	git push
 	#git push --tags
 	docker tag $USERNAME/$IMAGE:latest $USERNAME/$IMAGE:$NEW_VERION
