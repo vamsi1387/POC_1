@@ -4,7 +4,7 @@ addVersion()
 {
   val=$1
   dotCount=`echo $1 | tr -cd '.'| wc -c`
-  # if there is no version tag yet, let's start at 0.0.0
+  #if there is no version tag yet, let's start at 0.0.0
   if [ -z "$val" ]; then
      #No existing version, starting at 0.0.0
      echo "0.0.0"
