@@ -10,7 +10,7 @@ if [ -z "$da" ]
 then
 	git pull
 	# bump version
-	#docker run --rm -v "$PWD":/app treeder/bump patch
+	IMAGE=helloworld
 	#docker run -v $(pwd):/home/ec2-user/ vamsi1387/helloworld bash
 	./addVersion.sh
 	version=`cat VERSION`
