@@ -1,7 +1,0 @@
-echo "hello world"
-echo "adding a new line as part of version 1"
-echo "adding a new line for release script"
-echo "adding a new line for version 2"
-echo "adding a new line for version 3"
-echo "adding a new line to test auto build in docker hub"
-echo "adding a new line to test auto build"
