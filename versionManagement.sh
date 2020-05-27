@@ -22,7 +22,7 @@ then
 	git commit -m "version $version"
 	git tag -a "$version" -m "version $version"
 	git push
-	git push --tags
+	#git push --tags
 	docker tag $USERNAME/$IMAGE:latest $USERNAME/$IMAGE:$version
 	# push it
 	docker rmi -f $USERNAME/$IMAGE:latest
